@@ -1,0 +1,18 @@
+:root{
+
+    --bg-primary: #000;
+
+    --font-color-primary: #fff;
+    --font-color-secondary: #EF6950;
+    --font-color-terciary: #EF6950;
+
+    --hover-primary: #98582056;
+
+    --border-primary: #98582056;
+
+    --font-size-15: 0.938rem;
+    
+    --font-lobster-regular: "Lobster", sans-serif;
+    --font-poopins: "Poppins", sans-serif;
+
+}

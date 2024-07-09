@@ -1,0 +1,99 @@
+.banner-home {
+    height: 945px; 
+    background-image: url(../../images/banner-1.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+header {
+    border-bottom: 1px solid var(--border-primary);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+/* MUDA COR DO BG PARA PRETO COM SCROLL */
+header.scrolled {
+    background-color: #232323;
+}
+
+
+header.scrolled .nav-menu ul li a {
+    color: #fff; 
+}
+/* MUDA COR DA FONTE PARA BRANCO COM SCROLL */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    width: 150px;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-menu ul span{
+    color: var(--font-color-terciary);
+}
+
+.nav-menu ul li a {
+    font-size: var(--font-size-15);
+    color: var(--font-color-primary);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-menu ul li a:hover {
+    color: var(--hover-primary);
+}
+
+/* MENU RESPONSIVE */
+.menu-toggle {
+    display: none; /* Esconde o ícone de hambúrguer por padrão */
+}
+
+@media (max-width: 768px) {
+    .nav-menu ul {
+        display: none; /* Esconde o menu regular em telas menores */
+    }
+
+    .menu-toggle {
+        display: block; /* Exibe o ícone de hambúrguer */
+        cursor: pointer;
+        font-weight: bold;
+        color: #fff;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-menu ul.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 200px;
+        width: 100%;
+        background-color: #232323; 
+        z-index: 999;
+
+        text-align: center;
+    }
+
+    .nav-menu ul.active li {
+        padding: 10px 20px;
+    }
+}
