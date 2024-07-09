@@ -29,4 +29,3 @@ navMenu.querySelectorAll('a').forEach(item => {
         navMenu.classList.remove('active');
     });
 });
-

@@ -46,7 +46,7 @@ header.scrolled .nav-menu ul li a {
 }
 
 .nav-menu ul span{
-    color: var(--font-color-terciary);
+    color: var(--font-color-secondary);
 }
 
 .nav-menu ul li a {
