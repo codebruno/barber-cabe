@@ -1,0 +1,63 @@
+.about {
+    padding: 5% 1%;
+}
+
+.about .about-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text .about-year{
+    font-weight: 700;
+    color: var(--font-color-secondary);
+}
+
+.about-text h1 {
+    font-size: var(--font-size-40);
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.about-text .about-style{
+    margin-top: 25px;
+}
+
+.about-img {
+    display: flex;
+    gap: 20px;
+}
+
+.about-img img {
+    max-width: 220px;
+    border-radius: 4px; 
+}
+
+.about-content-secondary{
+    padding: 5% 1%;
+}
+
+.about-box-secondary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-cards p{
+    max-width: 360px;
+    line-height: 28px;
+}

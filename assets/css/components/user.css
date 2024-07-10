@@ -47,8 +47,8 @@
     padding: 15px 24px;
     min-width: 200px;
     text-transform: uppercase;
-
     transition: background 0.3s, color 0.3s;
+    
 }
 
 .main-home .btn:hover{
@@ -60,13 +60,14 @@
 .arrow {
     position: absolute;
     bottom: 20px;
-    left: 49%;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 3rem;
     color: #fff;
     animation: bounce 2s infinite;
     cursor: pointer;   
 }
+
 
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
