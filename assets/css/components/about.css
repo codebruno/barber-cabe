@@ -1,5 +1,6 @@
 .about {
     padding: 5% 1%;
+    background: #f5eee7;
 }
 
 .about .about-box {
@@ -25,12 +26,17 @@
 
 .about-text h1 {
     font-size: var(--font-size-40);
+    color: var(--font-color-terciary);
+    font-weight: 900;
     margin-bottom: 20px;
 }
 
 .about-text p {
+    color: var(--font-color-terciary);
     margin-bottom: 10px;
     text-align: justify;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 .about-text .about-style{
@@ -42,22 +48,44 @@
     gap: 20px;
 }
 
+.about-img .img-style{
+    position: relative;
+    top: 50px;
+}
+
+.about-img .img-style img{
+    position: absolute;
+}
+
 .about-img img {
-    max-width: 220px;
+    max-width: 210px;
     border-radius: 4px; 
 }
 
 .about-content-secondary{
-    padding: 5% 1%;
+    margin-top: 8%;
 }
 
-.about-box-secondary{
+.about-content-secondary .about-box-secondary{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 60px;
 }
 
-.about-cards p{
-    max-width: 360px;
-    line-height: 28px;
+.about-box-secondary .about-cards h2{
+    color: var(--font-color-terciary);
+}
+
+.about-box-secondary .about-cards p{
+    max-width: 320px;
+    line-height: 30px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: var(--font-color-terciary);
+}
+
+.about-box-secondary .about-cards i{
+    font-size: 30px;
+    color: var(--font-color-secondary);
 }

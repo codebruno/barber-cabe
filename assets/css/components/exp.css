@@ -1,0 +1,49 @@
+.experience{
+    padding: 5% 1%;
+    background: var(--bg-secondary);
+}
+
+.experience .experiences{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.experience-img img{
+    width: 400px;
+} 
+
+
+.experience .experience-text{
+    max-width: 650px;
+}
+
+.experience .experience-text .exp-text{
+    color: var(--font-color-secondary);
+    font-weight: 700;
+}
+
+.experience .experience-text h2{
+    font-size: var(--font-size-40);
+    color: var(--font-color-primary);
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.experience-text p{
+    color: var(--font-color-primary);
+    line-height: 25px;
+    text-align: justify ;
+}
+
+.experience-text .experience-barber{
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: var(--font-color-primary);
+}
+
+.experience-text .experience-barber p{
+   color: var(--hover-primary);
+}

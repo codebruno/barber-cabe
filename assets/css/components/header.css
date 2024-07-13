@@ -20,7 +20,7 @@ header {
 
 /* MUDA COR DO BG PARA PRETO COM SCROLL */
 header.scrolled {
-    background-color: #232323;
+    background: #232323;
 }
 
 
