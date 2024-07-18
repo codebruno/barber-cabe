@@ -1,0 +1,30 @@
+.services{
+    padding: 5% 1%;
+}
+
+.services .services-box .services-text{
+    text-align: center;
+}
+
+.services .services-box .services-text p{
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    color: var(--font-color-terciary);
+}
+
+.services .services-box .services-text h2{
+    font-size: var(--font-size-40);
+    color: var(--font-color-terciary);
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.services .services-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
